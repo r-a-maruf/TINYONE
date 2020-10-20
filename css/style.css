@@ -1,0 +1,459 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-size: 14px;
+	font-family: sa
+}
+/***********************************
+	header-section css goes here
+************************************/
+.header-section{
+	width: 100%;
+	background: #fcdb00;
+	padding-bottom: 70px
+
+}
+.header-section .top-header{
+	width: 100%;
+}
+.top-header .bg-light{
+	width: 100%;
+	background: transparent !important;
+	padding: 30px 0px;
+}
+.top-header .navbar-light .navbar-nav .active>.nav-link{
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.top-header .nav-hover{
+	/* padding: 10px;
+	color: #fcdb00;
+	background: #eee;
+	border: 1px solid #fcdb00;
+	display: none; */
+}
+.top-header .navbar-light .navbar-nav .nav-link {
+   color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-left: 55px;
+    transition: .5s ease-out;
+}
+.top-header .navbar-light .navbar-nav .nav-link:hover{
+	padding: 10px;
+	color: #fcdb00;
+	background: #eee;
+	border: 1px solid #fcdb00;
+	border-radius: 10px
+}
+.banner{
+	width: 100%;
+}
+.text-inner{
+	width: 100%
+}
+.banner .text-inner h2{
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 700;
+	color: #010101;
+	margin-bottom: 15px;
+}
+.banner .text-inner h5{
+	font-size: 27px;
+	line-height: 30px;
+	font-weight: 500;
+	color: #4c4e38;
+	margin-bottom: 15px;
+}
+.banner .text-inner p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #ae9c28;
+	margin-bottom: 25px;
+	
+}
+.banner .img-fluid{
+
+}
+/* feature section css goes here */
+.feature{
+	width: 100%;
+	padding: 50px 0px 50px;
+}
+.feature .title{
+	width: 100%;
+	text-align: center;
+}
+.feature .title h2{
+	font-size: 38px;
+	line-height: 48px;
+	font-weight: 700;
+	color: #010101;
+}
+.feature .title p{
+	font-size: 21px;
+	line-height: 25px;
+	font-weight: 400;
+	color: #4b5159;
+}
+.feature .media{
+	width: 100%;
+	padding:56px 0px 0px ;
+}
+.feature .media .fa{
+	font-size: 55px;
+	color: #010101;
+}
+.feature .media .media-body{
+	width: 100%;
+	padding: 0px 20px;
+}
+.feature .media  .code{
+	padding: 0px;
+}
+.feature .media .media-body h5{
+	font-size: 25px;
+	line-height: 35px;
+	font-weight: 400;
+	color: #010101;
+}
+.feature .media .media-body p{
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #656a71;
+}
+
+/* footer-section css goes here */
+.footer-section{
+	width: 100%;
+	background: #010101;
+	padding: 20px 0px 50px;
+}
+.footer-section .top-footer{
+	width: 100%;
+	padding: 50px 0px;
+}
+.top-footer .title{
+	width: 100%;
+	text-align: center;
+}
+.top-footer .title h2{
+	font-size: 38px;
+	line-height: 48px;
+	font-weight: 700;
+	color: #fcdb00;
+}
+.top-footer .title p{
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #7d7d7d;
+	margin-bottom: 25px;
+}
+.top-footer .form-group{
+	width: 79%;
+}
+.top-footer .form-control{
+	width: 100% !important;
+	padding: 20px;
+}
+.top-footer .btn-primary {
+    padding: 8px 21px;
+    color: #010101;
+    background: #fcdb00;
+    border: 1px solid #fcdb00;
+    text-transform: uppercase;
+    transition: .5s ease-in;
+}
+.top-footer .btn-primary:hover{
+	color: #fff;
+    background: transparent;
+    border: 1px solid #fcdb00;
+}
+.top-footer .social-icons{
+	padding: 80px 0px 50px;
+	text-align: center;
+}
+.top-footer .social-icons .fa-facebook{
+	font-size: 33px;
+	padding: 10px 17px ;
+	color: #010101;
+	background: #fcdb00;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+.top-footer .social-icons .fa-twitter{
+	font-size: 33px;
+	padding: 10px ;
+	color: #010101;
+	background: #fcdb00;
+	margin-right: 10px;
+	border-radius: 10px;
+
+}
+.top-footer .social-icons .fa-google-plus{
+	font-size: 33px;
+	padding: 10px 5px;
+	color: #010101;
+	background: #fcdb00;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+.top-footer .social-icons .fa-pinterest-p{
+	font-size: 33px;
+	padding: 10px 15px;
+	color: #010101;
+	background: #fcdb00;
+	margin-right: 10px;
+	border-radius: 10px;
+	transition: .5s ease-in-out;
+}
+.top-footer .social-icons .fa:hover{
+	color: #fcdb00;
+	background: transparent;
+	border: 1px solid #fcdb00;
+}
+.bottom-footer{
+	width: 100%;
+}
+.bottom-footer .title{
+	width: 100%;
+}
+.bottom-footer .one{
+	margin-top: 12px;
+}
+.bottom-footer .title p{
+	font-size: 15px;
+	line-height: 7px;
+	font-weight: 400;
+	color: #cfcfcf;
+	transition: .5s;
+}
+.bottom-footer .title p:hover{
+	color: #fcdb00;
+	border-bottom: 1px solid #010101;
+}
+.bottom-footer .title a{
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 400;
+	color: #cfcfcf;
+	transition: .5s;
+	text-decoration: none;
+}
+.bottom-footer .title a:hover{
+	color: #fcdb00;
+	text-decoration: underline;
+}
+
+
+/* meadia query css goes here */
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media  (min-width: 768px) and (max-width: 1024px)  {
+	/* bannar section css goes here */
+  	.banner .text-inner h2{
+		font-size: 32px;
+		line-height: 42px;
+	}
+	.banner .text-inner h5{
+		font-size: 21px;
+		line-height: 28px;
+	}
+	.banner .text-inner p{
+		font-size: 14px;
+		line-height: 24px;
+	}
+	/* feature section css goes here */
+	.feature .title p{
+		font-size: 19px;
+	}
+	/* footer section css goes here */
+	.top-footer .form-group{
+		width: 64%;
+	}
+	.top-footer .form-control{
+		width: 94% !important;
+		padding: 20px;
+	}
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* header section css goes here */
+
+	.top-header .navbar-light .navbar-nav .active>.nav-link{
+	    font-size: 18px;
+	}
+	.top-header .navbar-light .navbar-nav .nav-link{
+	    font-size: 18px;
+	}
+	/* banner section css goes here */
+	.text-inner{
+		margin-left: 20%
+	}
+
+  	.banner .text-inner h2{
+		font-size: 36px;
+		line-height: 46px;
+	}
+	.banner .text-inner h5{
+		font-size: 22px;
+		line-height: 32px;
+	}
+	.banner .text-inner p{
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.banner .inner-img{
+		text-align: center;
+		margin: 10px 61px 25px;
+	}
+  	.banner .img-fluid{
+  		margin: 20px 20%;
+  	}
+  	/* feature section css goew here */
+  	.feature .title p{
+		font-size: 25px;
+	}
+	.feature .media {
+	    width: 100%;
+	    padding: 56px 72px 0px;
+	}
+	.feature .media .code {
+	    padding: 15px;
+	}
+	/* footer section css here */
+	.top-footer .title h2{
+		font-size: 29px;
+		line-height: 39px;
+	}
+	.footer-section .top-footer{
+		padding: 10px 0px;
+	}
+	.top-footer .title p{
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.top-footer .form-group{
+		width: 64%;
+	}
+	.top-footer .form-control{
+		width: 94% !important;
+		padding: 20px;
+	}
+	.top-footer .social-icons{
+		padding: 30px 0px 50px;
+		text-align: center;
+	}
+	.bottom-footer .one{
+		width: 100%;
+		text-align: center;
+	}
+	.bottom-footer .title p{
+		font-size: 15px;
+		line-height: 7px;
+	}
+	.bottom-footer .title a{
+		font-size: 15px;
+		line-height: 7px;
+	}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+	/* header section css goes here */
+	.top-header .navbar-light .navbar-nav .active>.nav-link{
+	    font-size: 18px;
+	}
+	.top-header .navbar-light .navbar-nav .nav-link{
+	    font-size: 18px;
+	}
+	/* banner section css goes here */
+  	.banner .text-inner h2{
+		font-size: 28px;
+		line-height: 38px;
+	}
+	.banner .text-inner h5{
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.banner .text-inner p{
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.banner .inner-img{
+		text-align: center;
+		margin: 10px 61px 25px;
+	}
+  	.banner .img-fluid{
+  		margin-bottom: 30px;
+  	}
+  	/* feature section css goew here */
+  	.feature .title p{
+		font-size: 17px;
+	}
+	.feature .media .code {
+	    padding: 15px;
+	}
+	/* footer section css here */
+	.top-footer .title h2{
+		font-size: 29px;
+		line-height: 39px;
+	}
+	.footer-section .top-footer{
+		padding: 10px 0px;
+	}
+	.top-footer .title p{
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.top-footer .form-group{
+		width: 64%;
+	}
+	.top-footer .form-control{
+		width: 94% !important;
+		padding: 20px;
+	}
+	.top-footer .social-icons{
+		padding: 30px 0px 50px;
+		text-align: center;
+	}
+	.bottom-footer .one{
+		width: 100%;
+		text-align: center;
+	}
+	.bottom-footer .title p{
+		font-size: 15px;
+		line-height: 7px;
+	}
+	.bottom-footer .title a{
+		font-size: 15px;
+		line-height: 7px;
+	}
+}
