@@ -298,7 +298,7 @@ body{
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 482px) and (max-width: 767px) {
   
   /* header section css goes here */
 
@@ -386,7 +386,7 @@ body{
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 481px) {
 	/* header section css goes here */
 	.top-header .navbar-light .navbar-nav .active>.nav-link{
 	    font-size: 18px;
